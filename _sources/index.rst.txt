@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to neuralvis's documentation!
-=====================================
+Welcome to Madhu Srinivasan's Website!
+======================================
 
 .. toctree::
    :maxdepth: 2
