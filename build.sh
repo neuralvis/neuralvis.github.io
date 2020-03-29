@@ -1,6 +1,4 @@
-#!/bin/bash
-
-conda init bash
+#!/bin/bash --login
 
 conda activate ./env
-make html
+make github

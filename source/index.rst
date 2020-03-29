@@ -10,11 +10,10 @@ Welcome to Madhu Srinivasan's Website!
    :maxdepth: 2
    :caption: Contents:
 
-
+   tools
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
