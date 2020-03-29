@@ -1,6 +1,17 @@
 # Minimal makefile for Sphinx documentation
 #
 
+define BROWSER_PYSCRIPT
+import os, webbrowser, sys
+
+from urllib.request import pathname2url
+
+webbrowser.open("file://" + pathname2url(os.path.abspath(sys.argv[1])))
+endef
+export BROWSER_PYSCRIPT
+
+BROWSER := python -c "$$BROWSER_PYSCRIPT"
+
 # You can set these variables from the command line, and also
 # from the environment for the first two.
 SPHINXOPTS    ?=
@@ -19,7 +30,14 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-github:
+
+build_html:
 	@make html
-	@echo "Copying files from build to current"
+	$(BROWSER) build/html/index.html
+
+serve_html: build_html
+	watchmedo shell-command -p '*.rst' -c '$(MAKE)  html' -R -D .
+
+deploy:	build_html
+	@echo "Getting html files ready for github pages"
 	@cp -a build/html/. .
