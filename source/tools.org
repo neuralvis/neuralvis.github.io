@@ -1,14 +1,13 @@
-#+LATEX_CLASS: fu-org-article
-#+OPTIONS: tags:nil
-#+OPTIONS: email:t
-
 #+TITLE:  Tools
 #+AUTHOR: Madhu Srinivasan
 #+EMAIL:  madhu.srinivasan@outlook.com
 
+#+OPTIONS: author:t date:t email:t
+#+OPTIONS: tags:nil toc:t num:nil
+
 # #+STARTUP: content
-#+STARTUP: overview
-# #+STARTUP: showall
+# #+STARTUP: overview
+#+STARTUP: showall
 # #+STARTUP: showeverything
 
 * Computing Tools
