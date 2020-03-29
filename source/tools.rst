@@ -12,14 +12,14 @@ Tools
 1 Computing Tools
 -----------------
 
-- Jupyter
+- Jupyter Lab
 
-- Numba
+- Numba (JIT Compiler for Python)
 
-- Anaconda
+- Anaconda (Python Distribution)
 
 - `Metaflow by Netflix <https://metaflow.org>`_
 
-- Adaptive Experimentation Platform from Facebook: `https://ax.dev <https://ax.dev>`_
+- `Adaptive Experimentation Platform from Facebook <https://ax.dev>`_
 
-- Papermill: `https://github.com/nteract/papermill <https://github.com/nteract/papermill>`_
+- `Papermill <https://github.com/nteract/papermill>`_

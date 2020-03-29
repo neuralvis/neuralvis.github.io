@@ -12,9 +12,9 @@
 # #+STARTUP: showeverything
 
 * Computing Tools
-- Jupyter
-- Numba
-- Anaconda
+- Jupyter Lab
+- Numba (JIT Compiler for Python)
+- Anaconda (Python Distribution)
 - [[https://metaflow.org][Metaflow by Netflix]]
-- Adaptive Experimentation Platform from Facebook: https://ax.dev
-- Papermill: https://github.com/nteract/papermill
+- [[https://ax.dev][Adaptive Experimentation Platform from Facebook]]
+- [[https://github.com/nteract/papermill][Papermill]]
