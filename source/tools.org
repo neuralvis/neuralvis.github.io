@@ -11,9 +11,42 @@
 # #+STARTUP: showeverything
 
 * Computing Tools
-- Jupyter Lab
-- Numba (JIT Compiler for Python)
-- Anaconda (Python Distribution)
+- [[https://jupyterlab.readthedocs.io/en/stable/][Jupyter Lab]]
+- [[http://numba.pydata.org][Numba: JIT Compiler for Python]]
+- [[https://www.anaconda.com/distribution/][Anaconda Python Distribution]]
 - [[https://metaflow.org][Metaflow by Netflix]]
 - [[https://ax.dev][Adaptive Experimentation Platform from Facebook]]
 - [[https://github.com/nteract/papermill][Papermill]]
+
+* Deeplearning
+** Libraries
+- TensorFlow
+- MXNet
+- [[http://pytorch.org][PyTorch]]
+- H2O Platform for AI Analytics
+- [[http://neon.nervanasys.com/docs/latest/index.html][Neon - by NervanaSys]]
+- [[https://github.com/fastai/fastai][FastAI]]
+- [[http://tiny-dnn.readthedocs.io/en/latest/][TinyDNN]]: a minimal c++ learning
+- [[https://uber.github.io/ludwig/][Ludwig]]: a code-free Deep Learning Tool based on TensorFlow, from Uber
+- [[https://github.com/deepmind/graph_nets][GraphNets]]: By Deepmind
+- [[https://github.com/microsoft/onnxruntime][ONNX Runtime]]: To evaluate ONNX Networks, by Microsoft
+- [[https://learnpythia.readthedocs.io/en/latest/#][Pythia]]:  Modular framework on top of PyTorch for Vision and Language Tasks by Facebook
+** Distributed
+- [[https://github.com/horovod/horovod][Horovod]] - by uber
+- [[https://github.com/intelAI/Nauta][Nauta]] - by Intel
+- [[https://eng.uber.com/michelangelo/][Michelangelo]]: a reference architecture for large scale machine learning solutions
+- [[https://eng.uber.com/managing-data-workflows-at-scale/][Piper]] - for Data Science workflows by Uber
+- [[https://flyte.org/][Flyte]]: Distributed processing platform  by Lyft
+- [[https://ray.readthedocs.io/en/latest/tune.html][Tune]]: Tune is a Python library for experiment execution and hyperparameter tuning at any scale
+** Model Zoo
+- [[https://github.com/tensorflow/tensor2tensor][DL Models for Tensorflow]]
+- [[https://pytorch.org/docs/stable/torchvision/models.html#id4][Model Zoo from PyTorch]]
+- [[https://modelzoo.co/][Model Zoo Collection]]
+- [[https://pytorch.org/hub][PyTorch Hub]]
+
+* Interactive Web Documents
+- [[https://beta.observablehq.com][Observable]]
+- [[https://idyll-lang.org][Idyll]]
+- [[https://alpha.iodide.io][Iodide]]
+  - [[https://hacks.mozilla.org/2019/03/iodide-an-experimental-tool-for-scientific-communicatiodide-for-scientific-communication-exploration-on-the-web/ ][Article on Iodide on Mozilla]]
+- [[https://nteract.io][nteract]]
