@@ -11,12 +11,25 @@
 # #+STARTUP: showeverything
 
 * Computing Tools
+** Miscellaneous Tools
 - [[https://jupyterlab.readthedocs.io/en/stable/][Jupyter Lab]]
 - [[http://numba.pydata.org][Numba: JIT Compiler for Python]]
 - [[https://www.anaconda.com/distribution/][Anaconda Python Distribution]]
 - [[https://metaflow.org][Metaflow by Netflix]]
 - [[https://ax.dev][Adaptive Experimentation Platform from Facebook]]
 - [[https://github.com/nteract/papermill][Papermill]]
+** Containers and Orchestration
+- [[https://kubernetes.io][Kubernetes]]
+- [[https://buildpacks.io][Buildpack]]
+- [[https://knative.dev][knative]]
+- [[https://github.com/GoogleContainerTools/kaniko][kaniko]]
+** Python Distributed Computing
+- [[https://ray.io/][Ray.io]]
+- [[https://airflow.apache.org/concepts.html][Apache Airflow]]
+- [[https://dask.pydata.org/en/latest/scheduling.html][Dask Distributed]]
+- [[https://ipyparallel.readthedocs.io/en/latest/index.html][ipyparallel]]
+- [[https://luigi.readthedocs.io/en/latest/][Luigi]]
+- [[http://www.celeryproject.org][Celery]]
 
 * Deeplearning
 ** Libraries
@@ -38,11 +51,21 @@
 - [[https://eng.uber.com/managing-data-workflows-at-scale/][Piper]] - for Data Science workflows by Uber
 - [[https://flyte.org/][Flyte]]: Distributed processing platform  by Lyft
 - [[https://ray.readthedocs.io/en/latest/tune.html][Tune]]: Tune is a Python library for experiment execution and hyperparameter tuning at any scale
+- [[https://docs.ray.io/en/latest/][Ray]]: Ray is a fast and simple framework for building and running distributed applications
 ** Model Zoo
 - [[https://github.com/tensorflow/tensor2tensor][DL Models for Tensorflow]]
 - [[https://pytorch.org/docs/stable/torchvision/models.html#id4][Model Zoo from PyTorch]]
 - [[https://modelzoo.co/][Model Zoo Collection]]
 - [[https://pytorch.org/hub][PyTorch Hub]]
+** Deployment and Pipelines
+- [[https://www.kubeflow.org][Kubeflow]]: The Machine Learning Toolkit for Kubernetes
+- [[https://www.tensorflow.org/tfx][TFX]]: TFX is an end-to-end platform for deploying production ML pipelines
+** Reinforcement Learning
+- [[https://github.com/deepmind/trfl][Reinforcement Learning with Tensorflow]]
+- [[https://rlpyt.readthedocs.io/en/latest/][Reinforcement Learning in PyTorch]]
+- [[https://ray.readthedocs.io/en/latest/rllib.html][rllib]]: Scalable Reinforcement Learning built on Ray
+- [[https://github.com/openai/evolution-strategies-starter][Evolutionary Strategies Code]]: Code for the paper "Evolution Strategies as a Scalable Alternative to Reinforcement Learning"
+- [[https://github.com/uber-research/EvoGrad][Evograd]]: Code for evograd paper by Uber
 
 * Interactive Web Documents
 - [[https://beta.observablehq.com][Observable]]

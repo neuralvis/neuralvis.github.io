@@ -12,6 +12,9 @@ Tools
 Computing Tools
 ---------------
 
+Miscellaneous Tools
+~~~~~~~~~~~~~~~~~~~
+
 - `Jupyter Lab <https://jupyterlab.readthedocs.io/en/stable/>`_
 
 - `Numba: JIT Compiler for Python <http://numba.pydata.org>`_
@@ -23,6 +26,32 @@ Computing Tools
 - `Adaptive Experimentation Platform from Facebook <https://ax.dev>`_
 
 - `Papermill <https://github.com/nteract/papermill>`_
+
+Containers and Orchestration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- `Kubernetes <https://kubernetes.io>`_
+
+- `Buildpack <https://buildpacks.io>`_
+
+- `knative <https://knative.dev>`_
+
+- `kaniko <https://github.com/GoogleContainerTools/kaniko>`_
+
+Python Distributed Computing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- `Ray.io <https://ray.io/>`_
+
+- `Apache Airflow <https://airflow.apache.org/concepts.html>`_
+
+- `Dask Distributed <https://dask.pydata.org/en/latest/scheduling.html>`_
+
+- `ipyparallel <https://ipyparallel.readthedocs.io/en/latest/index.html>`_
+
+- `Luigi <https://luigi.readthedocs.io/en/latest/>`_
+
+- `Celery <http://www.celeryproject.org>`_
 
 Deeplearning
 ------------
@@ -67,6 +96,8 @@ Distributed
 
 - `Tune <https://ray.readthedocs.io/en/latest/tune.html>`_: Tune is a Python library for experiment execution and hyperparameter tuning at any scale
 
+- `Ray <https://docs.ray.io/en/latest/>`_: Ray is a fast and simple framework for building and running distributed applications
+
 Model Zoo
 ~~~~~~~~~
 
@@ -77,6 +108,26 @@ Model Zoo
 - `Model Zoo Collection <https://modelzoo.co/>`_
 
 - `PyTorch Hub <https://pytorch.org/hub>`_
+
+Deployment and Pipelines
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+- `Kubeflow <https://www.kubeflow.org>`_: The Machine Learning Toolkit for Kubernetes
+
+- `TFX <https://www.tensorflow.org/tfx>`_: TFX is an end-to-end platform for deploying production ML pipelines
+
+Reinforcement Learning
+~~~~~~~~~~~~~~~~~~~~~~
+
+- `Reinforcement Learning with Tensorflow <https://github.com/deepmind/trfl>`_
+
+- `Reinforcement Learning in PyTorch <https://rlpyt.readthedocs.io/en/latest/>`_
+
+- `rllib <https://ray.readthedocs.io/en/latest/rllib.html>`_: Scalable Reinforcement Learning built on Ray
+
+- `Evolutionary Strategies Code <https://github.com/openai/evolution-strategies-starter>`_: Code for the paper "Evolution Strategies as a Scalable Alternative to Reinforcement Learning"
+
+- `Evograd <https://github.com/uber-research/EvoGrad>`_: Code for evograd paper by Uber
 
 Interactive Web Documents
 -------------------------
