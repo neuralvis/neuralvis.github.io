@@ -73,3 +73,12 @@
 - [[https://alpha.iodide.io][Iodide]]
   - [[https://hacks.mozilla.org/2019/03/iodide-an-experimental-tool-for-scientific-communicatiodide-for-scientific-communication-exploration-on-the-web/ ][Article on Iodide on Mozilla]]
 - [[https://nteract.io][nteract]]
+
+* Programming Languages
+** Rust
+- [[https://www.rustsim.org][Numerical Simulation Packages]]
+- [[https://actix.rs][Actix: Rust Actor System and Web Framework]]
+- [[https://tokio.rs][Tokio: Asynchronous runtime for Rust]]
+- [[https://github.com/rayon-rs/rayon][Rayon: Data-parallelism library in Rust]]
+- [[https://github.com/crossbeam-rs/crossbeam][Crossbeam: Concurrency library]]
+- [[http://diesel.rs][Diesel: Rust ORM Library]]

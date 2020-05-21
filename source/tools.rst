@@ -141,3 +141,21 @@ Interactive Web Documents
   - `Article on Iodide on Mozilla <https://hacks.mozilla.org/2019/03/iodide-an-experimental-tool-for-scientific-communicatiodide-for-scientific-communication-exploration-on-the-web/%20>`_
 
 - `nteract <https://nteract.io>`_
+
+Programming Languages
+---------------------
+
+Rust
+~~~~
+
+- `Numerical Simulation Packages <https://www.rustsim.org>`_
+
+- `Actix: Rust Actor System and Web Framework <https://actix.rs>`_
+
+- `Tokio: Asynchronous runtime for Rust <https://tokio.rs>`_
+
+- `Rayon: Data-parallelism library in Rust <https://github.com/rayon-rs/rayon>`_
+
+- `Crossbeam: Concurrency library <https://github.com/crossbeam-rs/crossbeam>`_
+
+- `Diesel: Rust ORM Library <http://diesel.rs>`_
