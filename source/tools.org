@@ -76,9 +76,14 @@
 
 * Programming Languages
 ** Rust
+*** 3D Graphics and Scientific Computing
 - [[https://www.rustsim.org][Numerical Simulation Packages]]
+*** Distributed and Asynchronous Computing
 - [[https://actix.rs][Actix: Rust Actor System and Web Framework]]
 - [[https://tokio.rs][Tokio: Asynchronous runtime for Rust]]
 - [[https://github.com/rayon-rs/rayon][Rayon: Data-parallelism library in Rust]]
 - [[https://github.com/crossbeam-rs/crossbeam][Crossbeam: Concurrency library]]
+- [[https://github.com/constellation-rs/constellation][Constellation: Distributed Computing with Rust]]
+- [[https://github.com/constellation-rs/amadeus][Amadeus: Distributed Data Analysis in Rust]]
+*** Databases
 - [[http://diesel.rs][Diesel: Rust ORM Library]]
