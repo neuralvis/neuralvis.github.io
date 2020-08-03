@@ -98,6 +98,17 @@ Distributed
 
 - `Ray <https://docs.ray.io/en/latest/>`_: Ray is a fast and simple framework for building and running distributed applications
 
+Workflows and Diagnostics
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- `Manifold <https://eng.uber.com/manifold/>`_: Visual debugging tools for Machine Learning, by Uber
+
+- `Neptune <https://neptune.ai>`_: Lightweight experiment management tool
+
+- `MLFlow <https://mlflow.org>`_: Opensource platform for ML lifecycle
+
+- `PyCaret <https://pycaret.org>`_: Low-code ML Library in Python
+
 Model Zoo
 ~~~~~~~~~
 
