@@ -183,3 +183,12 @@ Databases
 ^^^^^^^^^
 
 - `Diesel: Rust ORM Library <http://diesel.rs>`_
+
+HTTP and Web
+^^^^^^^^^^^^
+
+- `Warp <https://github.com/seanmonstar/warp>`_: Web server framework based on `hyper <https://hyper.rs>`_
+
+- `hyper <https://hyper.rs>`_: Fast HTTP Implementation in and for rust
+
+- `reqwest <https://github.com/seanmonstar/reqwest>`_: Async HTTP client for rust, based on hyper

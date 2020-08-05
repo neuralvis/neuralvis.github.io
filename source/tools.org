@@ -92,3 +92,7 @@
 - [[https://github.com/constellation-rs/amadeus][Amadeus: Distributed Data Analysis in Rust]]
 *** Databases
 - [[http://diesel.rs][Diesel: Rust ORM Library]]
+*** HTTP and Web
+- [[https://github.com/seanmonstar/warp][Warp]]: Web server framework based on [[https://hyper.rs][hyper]]
+- [[https://hyper.rs][hyper]]: Fast HTTP Implementation in and for rust
+- [[https://github.com/seanmonstar/reqwest][reqwest]]: Async HTTP client for rust, based on hyper
