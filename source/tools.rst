@@ -98,6 +98,8 @@ Distributed
 
 - `Ray <https://docs.ray.io/en/latest/>`_: Ray is a fast and simple framework for building and running distributed applications
 
+- `Optuna <https://optuna.org>`_: An open source HPO framework to automate hyperparameter search
+
 Workflows and Diagnostics
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 

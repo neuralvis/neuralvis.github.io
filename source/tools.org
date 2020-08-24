@@ -52,6 +52,7 @@
 - [[https://flyte.org/][Flyte]]: Distributed processing platform  by Lyft
 - [[https://ray.readthedocs.io/en/latest/tune.html][Tune]]: Tune is a Python library for experiment execution and hyperparameter tuning at any scale
 - [[https://docs.ray.io/en/latest/][Ray]]: Ray is a fast and simple framework for building and running distributed applications
+- [[https://optuna.org][Optuna]]: An open source HPO framework to automate hyperparameter search
 ** Workflows and Diagnostics
 - [[https://eng.uber.com/manifold/][Manifold]]: Visual debugging tools for Machine Learning, by Uber
 - [[https://neptune.ai][Neptune]]: Lightweight experiment management tool
