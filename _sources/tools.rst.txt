@@ -43,6 +43,8 @@ Python Distributed Computing
 
 - `Ray.io <https://ray.io/>`_
 
+- `Modin <https://github.com/modin-project/modin>`_: Distributed Pandas on Ray or Dask
+
 - `Apache Airflow <https://airflow.apache.org/concepts.html>`_
 
 - `Dask Distributed <https://dask.pydata.org/en/latest/scheduling.html>`_
