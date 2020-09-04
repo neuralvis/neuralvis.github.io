@@ -25,6 +25,7 @@
 - [[https://github.com/GoogleContainerTools/kaniko][kaniko]]
 ** Python Distributed Computing
 - [[https://ray.io/][Ray.io]]
+- [[https://github.com/modin-project/modin][Modin]]: Distributed Pandas on Ray or Dask
 - [[https://airflow.apache.org/concepts.html][Apache Airflow]]
 - [[https://dask.pydata.org/en/latest/scheduling.html][Dask Distributed]]
 - [[https://ipyparallel.readthedocs.io/en/latest/index.html][ipyparallel]]
