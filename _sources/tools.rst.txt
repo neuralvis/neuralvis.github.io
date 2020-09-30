@@ -163,10 +163,64 @@ Programming Languages
 Rust
 ~~~~
 
-3D Graphics and Scientific Computing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OpenGL
+^^^^^^
+
+- `https://github.com/gfx-rs/gfx <https://github.com/gfx-rs/gfx>`_
+
+- `https://github.com/rust-windowing/glutin <https://github.com/rust-windowing/glutin>`_
+
+2D/3D Graphics and Scientific Computing
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - `Numerical Simulation Packages <https://www.rustsim.org>`_
+
+- `ggez <https://github.com/ggez/ggez>`_: 2D Game Engine
+
+- `Bevy Engine <https://bevyengine.org>`_: ECS based game engine. Works with Rapier
+
+- `Amethyst <https://amethyst.rs>`_: Data-driven game engine
+
+- `Piston <https://github.com/pistondevelopers/piston>`_: Older game engine in Rust
+
+- `rg3D <https://github.com/mrDIMAS/rg3d>`_: 3D Game engine in Rust
+
+Rendering Engines
+^^^^^^^^^^^^^^^^^
+
+- `rustlight <https://github.com/beltegeuse/rustlight>`_: Physically based rendering engine in Rust
+
+- `https://github.com/amethyst/rendy <https://github.com/amethyst/rendy>`_
+
+- `https://github.com/termhn/rayn <https://github.com/termhn/rayn>`_: Path tracing renderer for fractals written in Rust
+
+- `https://github.com/termhn/rendy-pbr <https://github.com/termhn/rendy-pbr>`_: Physically based renderer in Rust
+
+Linear Algebra
+^^^^^^^^^^^^^^
+
+- [cgmath]: `https://crates.io/crates/cgmath <https://crates.io/crates/cgmath>`_
+
+- [euclid]: `https://crates.io/crates/euclid <https://crates.io/crates/euclid>`_
+
+- [glam]: `https://github.com/bitshifter/glam-rs <https://github.com/bitshifter/glam-rs>`_
+
+- [nalgebra]: `https://nalgebra.org <https://nalgebra.org>`_
+
+- [pathfinder-geometry]: `https://crates.io/crates/pathfinder_geometry <https://crates.io/crates/pathfinder_geometry>`_
+
+- [static-math]: `https://crates.io/crates/static-math <https://crates.io/crates/static-math>`_
+
+- [ultraviolet]: `https://crates.io/crates/ultraviolet <https://crates.io/crates/ultraviolet>`_
+
+- [vek]: `https://crates.io/crates/vek <https://crates.io/crates/vek>`_
+
+- `https://github.com/bitshifter/mathbench-rs <https://github.com/bitshifter/mathbench-rs>`_
+
+Physics Engines
+^^^^^^^^^^^^^^^
+
+- `rapier <https://rapier.rs>`_: Fast and cross-platform physics engine for Rust
 
 Distributed and Asynchronous Computing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -196,3 +250,12 @@ HTTP and Web
 - `hyper <https://hyper.rs>`_: Fast HTTP Implementation in and for rust
 
 - `reqwest <https://github.com/seanmonstar/reqwest>`_: Async HTTP client for rust, based on hyper
+
+User Interfaces
+^^^^^^^^^^^^^^^
+
+- `Iced <https://github.com/hecrj/iced>`_: Cross platform GUI library inspired by Elm
+
+- `druid <https://github.com/linebender/druid>`_: A data-first native Rust UI kit
+
+-

@@ -100,10 +100,15 @@
 <li class="toctree-l2"><a class="reference internal" href="#interactive-web-documents">Interactive Web Documents</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#programming-languages">Programming Languages</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#rust">Rust</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#d-graphics-and-scientific-computing">3D Graphics and Scientific Computing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#opengl">OpenGL</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#d-3d-graphics-and-scientific-computing">2D/3D Graphics and Scientific Computing</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#rendering-engines">Rendering Engines</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#linear-algebra">Linear Algebra</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#physics-engines">Physics Engines</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#distributed-and-asynchronous-computing">Distributed and Asynchronous Computing</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#databases">Databases</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#http-and-web">HTTP and Web</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#user-interfaces">User Interfaces</a></li>
 </ul>
 </li>
 </ul>
@@ -213,10 +218,15 @@
 <ul>
 <li><p><a class="reference internal" href="#rust" id="id16">Rust</a></p>
 <ul>
-<li><p><a class="reference internal" href="#d-graphics-and-scientific-computing" id="id17">3D Graphics and Scientific Computing</a></p></li>
-<li><p><a class="reference internal" href="#distributed-and-asynchronous-computing" id="id18">Distributed and Asynchronous Computing</a></p></li>
-<li><p><a class="reference internal" href="#databases" id="id19">Databases</a></p></li>
-<li><p><a class="reference internal" href="#http-and-web" id="id20">HTTP and Web</a></p></li>
+<li><p><a class="reference internal" href="#opengl" id="id17">OpenGL</a></p></li>
+<li><p><a class="reference internal" href="#d-3d-graphics-and-scientific-computing" id="id18">2D/3D Graphics and Scientific Computing</a></p></li>
+<li><p><a class="reference internal" href="#rendering-engines" id="id19">Rendering Engines</a></p></li>
+<li><p><a class="reference internal" href="#linear-algebra" id="id20">Linear Algebra</a></p></li>
+<li><p><a class="reference internal" href="#physics-engines" id="id21">Physics Engines</a></p></li>
+<li><p><a class="reference internal" href="#distributed-and-asynchronous-computing" id="id22">Distributed and Asynchronous Computing</a></p></li>
+<li><p><a class="reference internal" href="#databases" id="id23">Databases</a></p></li>
+<li><p><a class="reference internal" href="#http-and-web" id="id24">HTTP and Web</a></p></li>
+<li><p><a class="reference internal" href="#user-interfaces" id="id25">User Interfaces</a></p></li>
 </ul>
 </li>
 </ul>
@@ -344,14 +354,55 @@
 <h2><a class="toc-backref" href="#id15">Programming Languages</a><a class="headerlink" href="#programming-languages" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="rust">
 <h3><a class="toc-backref" href="#id16">Rust</a><a class="headerlink" href="#rust" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="d-graphics-and-scientific-computing">
-<h4><a class="toc-backref" href="#id17">3D Graphics and Scientific Computing</a><a class="headerlink" href="#d-graphics-and-scientific-computing" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="opengl">
+<h4><a class="toc-backref" href="#id17">OpenGL</a><a class="headerlink" href="#opengl" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/gfx-rs/gfx">https://github.com/gfx-rs/gfx</a></p></li>
+<li><p><a class="reference external" href="https://github.com/rust-windowing/glutin">https://github.com/rust-windowing/glutin</a></p></li>
+</ul>
+</div>
+<div class="section" id="d-3d-graphics-and-scientific-computing">
+<h4><a class="toc-backref" href="#id18">2D/3D Graphics and Scientific Computing</a><a class="headerlink" href="#d-3d-graphics-and-scientific-computing" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.rustsim.org">Numerical Simulation Packages</a></p></li>
+<li><p><a class="reference external" href="https://github.com/ggez/ggez">ggez</a>: 2D Game Engine</p></li>
+<li><p><a class="reference external" href="https://bevyengine.org">Bevy Engine</a>: ECS based game engine. Works with Rapier</p></li>
+<li><p><a class="reference external" href="https://amethyst.rs">Amethyst</a>: Data-driven game engine</p></li>
+<li><p><a class="reference external" href="https://github.com/pistondevelopers/piston">Piston</a>: Older game engine in Rust</p></li>
+<li><p><a class="reference external" href="https://github.com/mrDIMAS/rg3d">rg3D</a>: 3D Game engine in Rust</p></li>
+</ul>
+</div>
+<div class="section" id="rendering-engines">
+<h4><a class="toc-backref" href="#id19">Rendering Engines</a><a class="headerlink" href="#rendering-engines" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/beltegeuse/rustlight">rustlight</a>: Physically based rendering engine in Rust</p></li>
+<li><p><a class="reference external" href="https://github.com/amethyst/rendy">https://github.com/amethyst/rendy</a></p></li>
+<li><p><a class="reference external" href="https://github.com/termhn/rayn">https://github.com/termhn/rayn</a>: Path tracing renderer for fractals written in Rust</p></li>
+<li><p><a class="reference external" href="https://github.com/termhn/rendy-pbr">https://github.com/termhn/rendy-pbr</a>: Physically based renderer in Rust</p></li>
+</ul>
+</div>
+<div class="section" id="linear-algebra">
+<h4><a class="toc-backref" href="#id20">Linear Algebra</a><a class="headerlink" href="#linear-algebra" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>[cgmath]: <a class="reference external" href="https://crates.io/crates/cgmath">https://crates.io/crates/cgmath</a></p></li>
+<li><p>[euclid]: <a class="reference external" href="https://crates.io/crates/euclid">https://crates.io/crates/euclid</a></p></li>
+<li><p>[glam]: <a class="reference external" href="https://github.com/bitshifter/glam-rs">https://github.com/bitshifter/glam-rs</a></p></li>
+<li><p>[nalgebra]: <a class="reference external" href="https://nalgebra.org">https://nalgebra.org</a></p></li>
+<li><p>[pathfinder-geometry]: <a class="reference external" href="https://crates.io/crates/pathfinder_geometry">https://crates.io/crates/pathfinder_geometry</a></p></li>
+<li><p>[static-math]: <a class="reference external" href="https://crates.io/crates/static-math">https://crates.io/crates/static-math</a></p></li>
+<li><p>[ultraviolet]: <a class="reference external" href="https://crates.io/crates/ultraviolet">https://crates.io/crates/ultraviolet</a></p></li>
+<li><p>[vek]: <a class="reference external" href="https://crates.io/crates/vek">https://crates.io/crates/vek</a></p></li>
+<li><p><a class="reference external" href="https://github.com/bitshifter/mathbench-rs">https://github.com/bitshifter/mathbench-rs</a></p></li>
+</ul>
+</div>
+<div class="section" id="physics-engines">
+<h4><a class="toc-backref" href="#id21">Physics Engines</a><a class="headerlink" href="#physics-engines" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://rapier.rs">rapier</a>: Fast and cross-platform physics engine for Rust</p></li>
 </ul>
 </div>
 <div class="section" id="distributed-and-asynchronous-computing">
-<h4><a class="toc-backref" href="#id18">Distributed and Asynchronous Computing</a><a class="headerlink" href="#distributed-and-asynchronous-computing" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id22">Distributed and Asynchronous Computing</a><a class="headerlink" href="#distributed-and-asynchronous-computing" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://actix.rs">Actix: Rust Actor System and Web Framework</a></p></li>
 <li><p><a class="reference external" href="https://tokio.rs">Tokio: Asynchronous runtime for Rust</a></p></li>
@@ -362,17 +413,25 @@
 </ul>
 </div>
 <div class="section" id="databases">
-<h4><a class="toc-backref" href="#id19">Databases</a><a class="headerlink" href="#databases" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id23">Databases</a><a class="headerlink" href="#databases" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="http://diesel.rs">Diesel: Rust ORM Library</a></p></li>
 </ul>
 </div>
 <div class="section" id="http-and-web">
-<h4><a class="toc-backref" href="#id20">HTTP and Web</a><a class="headerlink" href="#http-and-web" title="Permalink to this headline">¶</a></h4>
+<h4><a class="toc-backref" href="#id24">HTTP and Web</a><a class="headerlink" href="#http-and-web" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/seanmonstar/warp">Warp</a>: Web server framework based on <a class="reference external" href="https://hyper.rs">hyper</a></p></li>
 <li><p><a class="reference external" href="https://hyper.rs">hyper</a>: Fast HTTP Implementation in and for rust</p></li>
 <li><p><a class="reference external" href="https://github.com/seanmonstar/reqwest">reqwest</a>: Async HTTP client for rust, based on hyper</p></li>
+</ul>
+</div>
+<div class="section" id="user-interfaces">
+<h4><a class="toc-backref" href="#id25">User Interfaces</a><a class="headerlink" href="#user-interfaces" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/hecrj/iced">Iced</a>: Cross platform GUI library inspired by Elm</p></li>
+<li><p><a class="reference external" href="https://github.com/linebender/druid">druid</a>: A data-first native Rust UI kit</p></li>
+<li></li>
 </ul>
 </div>
 </div>

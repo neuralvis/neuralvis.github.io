@@ -83,8 +83,33 @@
 
 * Programming Languages
 ** Rust
-*** 3D Graphics and Scientific Computing
+*** OpenGL
+- https://github.com/gfx-rs/gfx
+- https://github.com/rust-windowing/glutin
+*** 2D/3D Graphics and Scientific Computing
 - [[https://www.rustsim.org][Numerical Simulation Packages]]
+- [[https://github.com/ggez/ggez][ggez]]: 2D Game Engine
+- [[https://bevyengine.org][Bevy Engine]]: ECS based game engine. Works with Rapier
+- [[https://amethyst.rs][Amethyst]]: Data-driven game engine
+- [[https://github.com/pistondevelopers/piston][Piston]]: Older game engine in Rust
+- [[https://github.com/mrDIMAS/rg3d][rg3D]]: 3D Game engine in Rust
+*** Rendering Engines
+- [[https://github.com/beltegeuse/rustlight][rustlight]]: Physically based rendering engine in Rust
+- https://github.com/amethyst/rendy
+- https://github.com/termhn/rayn: Path tracing renderer for fractals written in Rust
+- https://github.com/termhn/rendy-pbr: Physically based renderer in Rust
+*** Linear Algebra
+- [cgmath]: https://crates.io/crates/cgmath
+- [euclid]: https://crates.io/crates/euclid
+- [glam]: https://github.com/bitshifter/glam-rs
+- [nalgebra]: https://nalgebra.org
+- [pathfinder-geometry]: https://crates.io/crates/pathfinder_geometry
+- [static-math]: https://crates.io/crates/static-math
+- [ultraviolet]: https://crates.io/crates/ultraviolet
+- [vek]: https://crates.io/crates/vek
+- https://github.com/bitshifter/mathbench-rs
+*** Physics Engines
+- [[https://rapier.rs][rapier]]: Fast and cross-platform physics engine for Rust
 *** Distributed and Asynchronous Computing
 - [[https://actix.rs][Actix: Rust Actor System and Web Framework]]
 - [[https://tokio.rs][Tokio: Asynchronous runtime for Rust]]
@@ -98,3 +123,7 @@
 - [[https://github.com/seanmonstar/warp][Warp]]: Web server framework based on [[https://hyper.rs][hyper]]
 - [[https://hyper.rs][hyper]]: Fast HTTP Implementation in and for rust
 - [[https://github.com/seanmonstar/reqwest][reqwest]]: Async HTTP client for rust, based on hyper
+*** User Interfaces
+- [[https://github.com/hecrj/iced][Iced]]: Cross platform GUI library inspired by Elm
+- [[https://github.com/linebender/druid][druid]]: A data-first native Rust UI kit
+-
