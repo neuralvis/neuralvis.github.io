@@ -67,13 +67,16 @@
 ** Deployment and Pipelines
 - [[https://www.kubeflow.org][Kubeflow]]: The Machine Learning Toolkit for Kubernetes
 - [[https://www.tensorflow.org/tfx][TFX]]: TFX is an end-to-end platform for deploying production ML pipelines
-** Reinforcement Learning
+* Reinforcement Learning
+- [[https://gym.openai.com][gym]]: OpenAI Gym
 - [[https://github.com/deepmind/trfl][Reinforcement Learning with Tensorflow]]
 - [[https://rlpyt.readthedocs.io/en/latest/][Reinforcement Learning in PyTorch]]
-- [[https://ray.readthedocs.io/en/latest/rllib.html][rllib]]: Scalable Reinforcement Learning built on Ray
 - [[https://github.com/openai/evolution-strategies-starter][Evolutionary Strategies Code]]: Code for the paper "Evolution Strategies as a Scalable Alternative to Reinforcement Learning"
 - [[https://github.com/uber-research/EvoGrad][Evograd]]: Code for evograd paper by Uber
-
+** Distributed Reinforcement Learning
+- [[https://ray.readthedocs.io/en/latest/rllib.html][rllib]]: Scalable Reinforcement Learning built on Ray
+- [[https://github.com/deepmind/reverb][reverb]]: Experience replay system for distributed reinforcement learning
+- [[https://ai.googleblog.com/2020/10/massively-large-scale-distributed.html][menger]]: Massively Large-Scale distributed RL
 * Interactive Web Documents
 - [[https://beta.observablehq.com][Observable]]
 - [[https://idyll-lang.org][Idyll]]

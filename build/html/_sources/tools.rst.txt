@@ -132,17 +132,26 @@ Deployment and Pipelines
 - `TFX <https://www.tensorflow.org/tfx>`_: TFX is an end-to-end platform for deploying production ML pipelines
 
 Reinforcement Learning
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
+
+- `gym <https://gym.openai.com>`_: OpenAI Gym
 
 - `Reinforcement Learning with Tensorflow <https://github.com/deepmind/trfl>`_
 
 - `Reinforcement Learning in PyTorch <https://rlpyt.readthedocs.io/en/latest/>`_
 
-- `rllib <https://ray.readthedocs.io/en/latest/rllib.html>`_: Scalable Reinforcement Learning built on Ray
-
 - `Evolutionary Strategies Code <https://github.com/openai/evolution-strategies-starter>`_: Code for the paper "Evolution Strategies as a Scalable Alternative to Reinforcement Learning"
 
 - `Evograd <https://github.com/uber-research/EvoGrad>`_: Code for evograd paper by Uber
+
+Distributed Reinforcement Learning
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- `rllib <https://ray.readthedocs.io/en/latest/rllib.html>`_: Scalable Reinforcement Learning built on Ray
+
+- `reverb <https://github.com/deepmind/reverb>`_: Experience replay system for distributed reinforcement learning
+
+- `menger <https://ai.googleblog.com/2020/10/massively-large-scale-distributed.html>`_: Massively Large-Scale distributed RL
 
 Interactive Web Documents
 -------------------------
