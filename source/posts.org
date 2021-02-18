@@ -1,0 +1,10 @@
+#+TITLE:  Posts
+#+AUTHOR: Madhu Srinivasan
+#+EMAIL:  madhu.srinivasan@outlook.com
+
+#+OPTIONS: author:t date:t email:t
+#+OPTIONS: tags:nil toc:nil num:nil
+
+#+STARTUP: showall
+
+* Blog Posts

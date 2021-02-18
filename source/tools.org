@@ -3,7 +3,7 @@
 #+EMAIL:  madhu.srinivasan@outlook.com
 
 #+OPTIONS: author:t date:t email:t
-#+OPTIONS: tags:nil toc:t num:nil
+#+OPTIONS: tags:nil toc:nil num:nil
 
 # #+STARTUP: content
 # #+STARTUP: overview
@@ -81,7 +81,7 @@
 - [[https://beta.observablehq.com][Observable]]
 - [[https://idyll-lang.org][Idyll]]
 - [[https://alpha.iodide.io][Iodide]]
-  - [[https://hacks.mozilla.org/2019/03/iodide-an-experimental-tool-for-scientific-communicatiodide-for-scientific-communication-exploration-on-the-web/ ][Article on Iodide on Mozilla]]
+- [[https://hacks.mozilla.org/2019/03/iodide-an-experimental-tool-for-scientific-communicatiodide-for-scientific-communication-exploration-on-the-web/ ][Article on Iodide on Mozilla]]
 - [[https://nteract.io][nteract]]
 
 * Programming Languages

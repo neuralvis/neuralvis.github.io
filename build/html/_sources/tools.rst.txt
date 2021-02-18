@@ -5,8 +5,6 @@ Tools
     :Author: Madhu Srinivasan
     :Contact: madhu.srinivasan@outlook.com
 
-.. contents::
-
 
 
 Computing Tools

@@ -1,4 +1,4 @@
 #!/bin/bash --login
 
 conda activate ./env
-make serve_html
+make build_html
