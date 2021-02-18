@@ -107,7 +107,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#d-3d-graphics-and-scientific-computing">2D/3D Graphics and Scientific Computing</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#rendering-engines">Rendering Engines</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#linear-algebra">Linear Algebra</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#physics-engines">Physics Engines</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#numerical-simulation-libraries">Numerical Simulation Libraries</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#distributed-and-asynchronous-computing">Distributed and Asynchronous Computing</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#databases">Databases</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#http-and-web">HTTP and Web</a></li>
@@ -229,7 +229,7 @@
 <li><p><a class="reference internal" href="#d-3d-graphics-and-scientific-computing" id="id19">2D/3D Graphics and Scientific Computing</a></p></li>
 <li><p><a class="reference internal" href="#rendering-engines" id="id20">Rendering Engines</a></p></li>
 <li><p><a class="reference internal" href="#linear-algebra" id="id21">Linear Algebra</a></p></li>
-<li><p><a class="reference internal" href="#physics-engines" id="id22">Physics Engines</a></p></li>
+<li><p><a class="reference internal" href="#numerical-simulation-libraries" id="id22">Numerical Simulation Libraries</a></p></li>
 <li><p><a class="reference internal" href="#distributed-and-asynchronous-computing" id="id23">Distributed and Asynchronous Computing</a></p></li>
 <li><p><a class="reference internal" href="#databases" id="id24">Databases</a></p></li>
 <li><p><a class="reference internal" href="#http-and-web" id="id25">HTTP and Web</a></p></li>
@@ -379,12 +379,13 @@
 <div class="section" id="d-3d-graphics-and-scientific-computing">
 <h4><a class="toc-backref" href="#id19">2D/3D Graphics and Scientific Computing</a><a class="headerlink" href="#d-3d-graphics-and-scientific-computing" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.rustsim.org">Numerical Simulation Packages</a></p></li>
 <li><p><a class="reference external" href="https://github.com/ggez/ggez">ggez</a>: 2D Game Engine</p></li>
 <li><p><a class="reference external" href="https://bevyengine.org">Bevy Engine</a>: ECS based game engine. Works with Rapier</p></li>
 <li><p><a class="reference external" href="https://amethyst.rs">Amethyst</a>: Data-driven game engine</p></li>
 <li><p><a class="reference external" href="https://github.com/pistondevelopers/piston">Piston</a>: Older game engine in Rust</p></li>
 <li><p><a class="reference external" href="https://github.com/mrDIMAS/rg3d">rg3D</a>: 3D Game engine in Rust</p></li>
+<li><p><a class="reference external" href="https://github.com/bodoni/svg">svg</a>: 2D SVG Parser</p></li>
+<li><p><a class="reference external" href="https://github.com/nical/lyon">lyon</a>: 2D Graphics Rendering on the GPU</p></li>
 </ul>
 </div>
 <div class="section" id="rendering-engines">
@@ -399,21 +400,27 @@
 <div class="section" id="linear-algebra">
 <h4><a class="toc-backref" href="#id21">Linear Algebra</a><a class="headerlink" href="#linear-algebra" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p>[cgmath]: <a class="reference external" href="https://crates.io/crates/cgmath">https://crates.io/crates/cgmath</a></p></li>
-<li><p>[euclid]: <a class="reference external" href="https://crates.io/crates/euclid">https://crates.io/crates/euclid</a></p></li>
-<li><p>[glam]: <a class="reference external" href="https://github.com/bitshifter/glam-rs">https://github.com/bitshifter/glam-rs</a></p></li>
-<li><p>[nalgebra]: <a class="reference external" href="https://nalgebra.org">https://nalgebra.org</a></p></li>
-<li><p>[pathfinder-geometry]: <a class="reference external" href="https://crates.io/crates/pathfinder_geometry">https://crates.io/crates/pathfinder_geometry</a></p></li>
-<li><p>[static-math]: <a class="reference external" href="https://crates.io/crates/static-math">https://crates.io/crates/static-math</a></p></li>
-<li><p>[ultraviolet]: <a class="reference external" href="https://crates.io/crates/ultraviolet">https://crates.io/crates/ultraviolet</a></p></li>
-<li><p>[vek]: <a class="reference external" href="https://crates.io/crates/vek">https://crates.io/crates/vek</a></p></li>
-<li><p><a class="reference external" href="https://github.com/bitshifter/mathbench-rs">https://github.com/bitshifter/mathbench-rs</a></p></li>
+<li><p><a class="reference external" href="https://crates.io/crates/cgmath">cgmath</a></p></li>
+<li><p><a class="reference external" href="https://crates.io/crates/euclid">euclid</a></p></li>
+<li><p><a class="reference external" href="https://github.com/bitshifter/glam-rs">glam-rs</a></p></li>
+<li><p><a class="reference external" href="https://nalgebra.org">nalgebra</a></p></li>
+<li><p><a class="reference external" href="https://github.com/servo/pathfinder">pathfinder</a></p></li>
+<li><p><a class="reference external" href="https://crates.io/crates/static-math">static-math</a></p></li>
+<li><p><a class="reference external" href="https://crates.io/crates/ultraviolet">ultraviolet</a></p></li>
+<li><p><a class="reference external" href="https://crates.io/crates/vek">vek</a></p></li>
+<li><p><a class="reference external" href="https://github.com/bitshifter/mathbench-rs">Benchmarks for various libraries</a></p></li>
 </ul>
 </div>
-<div class="section" id="physics-engines">
-<h4><a class="toc-backref" href="#id22">Physics Engines</a><a class="headerlink" href="#physics-engines" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="numerical-simulation-libraries">
+<h4><a class="toc-backref" href="#id22">Numerical Simulation Libraries</a><a class="headerlink" href="#numerical-simulation-libraries" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
-<li><p><a class="reference external" href="https://rapier.rs">rapier</a>: Fast and cross-platform physics engine for Rust</p></li>
+<li><p><a class="reference external" href="https://www.rustsim.org">rustsim organization</a></p></li>
+<li><p><a class="reference external" href="https://rapier.rs">rapier</a>: Fast and cross-platform physics engine for Rust. Works with Bevy game
+engine.</p></li>
+<li><p><a class="reference external" href="https://github.com/dimforge/nphysics">nphysics</a>: Precursor to the rapier engine. Passively maintained.</p></li>
+<li><p><a class="reference external" href="https://salva.rs">salva</a>: 2D/3D fluid simulation engine</p></li>
+<li><p><a class="reference external" href="https://www.parry.rs">parry</a>: 2D/3D collision detection</p></li>
+<li><p><a class="reference external" href="https://github.com/dimforge/ncollide">ncollide</a>: Percursor to parry. Passively maintained.</p></li>
 </ul>
 </div>
 <div class="section" id="distributed-and-asynchronous-computing">

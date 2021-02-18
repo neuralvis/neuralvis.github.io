@@ -182,8 +182,6 @@ OpenGL
 2D/3D Graphics and Scientific Computing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- `Numerical Simulation Packages <https://www.rustsim.org>`_
-
 - `ggez <https://github.com/ggez/ggez>`_: 2D Game Engine
 
 - `Bevy Engine <https://bevyengine.org>`_: ECS based game engine. Works with Rapier
@@ -193,6 +191,10 @@ OpenGL
 - `Piston <https://github.com/pistondevelopers/piston>`_: Older game engine in Rust
 
 - `rg3D <https://github.com/mrDIMAS/rg3d>`_: 3D Game engine in Rust
+
+- `svg <https://github.com/bodoni/svg>`_: 2D SVG Parser
+
+- `lyon <https://github.com/nical/lyon>`_: 2D Graphics Rendering on the GPU
 
 Rendering Engines
 ^^^^^^^^^^^^^^^^^
@@ -208,28 +210,39 @@ Rendering Engines
 Linear Algebra
 ^^^^^^^^^^^^^^
 
-- [cgmath]: `https://crates.io/crates/cgmath <https://crates.io/crates/cgmath>`_
+- `cgmath <https://crates.io/crates/cgmath>`_
 
-- [euclid]: `https://crates.io/crates/euclid <https://crates.io/crates/euclid>`_
+- `euclid <https://crates.io/crates/euclid>`_
 
-- [glam]: `https://github.com/bitshifter/glam-rs <https://github.com/bitshifter/glam-rs>`_
+- `glam-rs <https://github.com/bitshifter/glam-rs>`_
 
-- [nalgebra]: `https://nalgebra.org <https://nalgebra.org>`_
+- `nalgebra <https://nalgebra.org>`_
 
-- [pathfinder-geometry]: `https://crates.io/crates/pathfinder_geometry <https://crates.io/crates/pathfinder_geometry>`_
+- `pathfinder <https://github.com/servo/pathfinder>`_
 
-- [static-math]: `https://crates.io/crates/static-math <https://crates.io/crates/static-math>`_
+- `static-math <https://crates.io/crates/static-math>`_
 
-- [ultraviolet]: `https://crates.io/crates/ultraviolet <https://crates.io/crates/ultraviolet>`_
+- `ultraviolet <https://crates.io/crates/ultraviolet>`_
 
-- [vek]: `https://crates.io/crates/vek <https://crates.io/crates/vek>`_
+- `vek <https://crates.io/crates/vek>`_
 
-- `https://github.com/bitshifter/mathbench-rs <https://github.com/bitshifter/mathbench-rs>`_
+- `Benchmarks for various libraries <https://github.com/bitshifter/mathbench-rs>`_
 
-Physics Engines
-^^^^^^^^^^^^^^^
+Numerical Simulation Libraries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- `rapier <https://rapier.rs>`_: Fast and cross-platform physics engine for Rust
+- `rustsim organization <https://www.rustsim.org>`_
+
+- `rapier <https://rapier.rs>`_: Fast and cross-platform physics engine for Rust. Works with Bevy game
+  engine.
+
+- `nphysics <https://github.com/dimforge/nphysics>`_: Precursor to the rapier engine. Passively maintained.
+
+- `salva <https://salva.rs>`_: 2D/3D fluid simulation engine
+
+- `parry <https://www.parry.rs>`_: 2D/3D collision detection
+
+- `ncollide <https://github.com/dimforge/ncollide>`_: Percursor to parry. Passively maintained.
 
 Distributed and Asynchronous Computing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -267,4 +280,4 @@ User Interfaces
 
 - `druid <https://github.com/linebender/druid>`_: A data-first native Rust UI kit
 
--
+- 
