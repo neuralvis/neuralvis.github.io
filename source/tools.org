@@ -112,6 +112,12 @@
 - [[https://crates.io/crates/ultraviolet][ultraviolet]]
 - [[https://crates.io/crates/vek][vek]]
 - [[https://github.com/bitshifter/mathbench-rs][Benchmarks for various libraries]]
+*** Machine Learning and Data Science
+- [[https://github.com/smartcorelib/smartcore][smartcore]]: An advanced ML library in Rust
+- [[https://github.com/pola-rs/polars][polars]]: Dataframe library in Rust
+- [[https://github.com/Axect/Peroxide][peroxide]]: Numerical computations, statistics in Rust
+- [[https://github.com/rust-ml/linfa][linfa]]: A comprehensive ML library in Rust
+- [[https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning][Awesome ML List for Rust]]
 *** Numerical Simulation Libraries
 - [[https://www.rustsim.org][rustsim organization]]
 - [[https://rapier.rs][rapier]]: Fast and cross-platform physics engine for Rust. Works with Bevy game
@@ -133,7 +139,7 @@
 - [[https://github.com/seanmonstar/warp][Warp]]: Web server framework based on [[https://hyper.rs][hyper]]
 - [[https://hyper.rs][hyper]]: Fast HTTP Implementation in and for rust
 - [[https://github.com/seanmonstar/reqwest][reqwest]]: Async HTTP client for rust, based on hyper
+- [[https://github.com/yewstack/yew][yew]]: A modern Rust framework for creating multi-threaded front-end web apps with WebAssembly
 *** User Interfaces
 - [[https://github.com/hecrj/iced][Iced]]: Cross platform GUI library inspired by Elm
 - [[https://github.com/linebender/druid][druid]]: A data-first native Rust UI kit
--
