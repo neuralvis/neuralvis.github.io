@@ -228,6 +228,19 @@ Linear Algebra
 
 - `Benchmarks for various libraries <https://github.com/bitshifter/mathbench-rs>`_
 
+Machine Learning and Data Science
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- `smartcore <https://github.com/smartcorelib/smartcore>`_: An advanced ML library in Rust
+
+- `polars <https://github.com/pola-rs/polars>`_: Dataframe library in Rust
+
+- `peroxide <https://github.com/Axect/Peroxide>`_: Numerical computations, statistics in Rust
+
+- `linfa <https://github.com/rust-ml/linfa>`_: A comprehensive ML library in Rust
+
+- `Awesome ML List for Rust <https://github.com/vaaaaanquish/Awesome-Rust-MachineLearning>`_
+
 Numerical Simulation Libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -273,11 +286,11 @@ HTTP and Web
 
 - `reqwest <https://github.com/seanmonstar/reqwest>`_: Async HTTP client for rust, based on hyper
 
+- `yew <https://github.com/yewstack/yew>`_: A modern Rust framework for creating multi-threaded front-end web apps with WebAssembly
+
 User Interfaces
 ^^^^^^^^^^^^^^^
 
 - `Iced <https://github.com/hecrj/iced>`_: Cross platform GUI library inspired by Elm
 
 - `druid <https://github.com/linebender/druid>`_: A data-first native Rust UI kit
-
-- 
